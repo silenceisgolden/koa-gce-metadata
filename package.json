@@ -2,7 +2,7 @@
   "name": "koa-gce-metadata",
   "description": "Library to retrieve and update metadata in a Google Compute Engine Instance",
   "repository": "silenceisgolden/koa-gce-metadata",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "dependencies": {
     "debug": "^2.2.0",
     "superagent": "^1.5.0"
