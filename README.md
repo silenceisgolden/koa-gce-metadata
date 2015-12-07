@@ -1,2 +1,5 @@
-# node-googlecloud-metadata
-Library to retrieve and update changed metadata according to Google's Compute Engine API
+# koa-gce-metadata
+
+Library to retrieve and update metadata in a Google Compute Engine Instance
+
+Status: Usable, but still testing before 0.1 release.
