@@ -1,0 +1,46 @@
+{
+  "name": "koa-gce-metadata",
+  "description": "Library to retrieve and update metadata in a Google Compute Engine Instance",
+  "repository": "silenceisgolden/koa-gce-metadata",
+  "version": "0.0.1",
+  "dependencies": {
+    "debug": "^2.2.0",
+    "superagent": "^1.5.0"
+  },
+  "main": "index.js",
+  "bugs": {
+    "url": "https://github.com/silenceisgolden/koa-gce-metadata/issues",
+    "email": "aj@logicallyabstract.com"
+  },
+  "author": {
+    "name": "Alexander Klein",
+    "email": "aj@logicallyabstract.com"
+  },
+  "keywords": [
+    "koa",
+    "middleware",
+    "google",
+    "compute",
+    "engine",
+    "metadata",
+    "api",
+    "instance"
+  ],
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "istanbul": "^0.4.1",
+    "istanbul-coveralls": "^1.0.3",
+    "koa": "^2.0.0-alpha.3",
+    "koa-convert": "^1.2.0",
+    "mocha": "^2.3.4",
+    "nock": "^3.4.0",
+    "supertest": "^1.1.0"
+  },
+  "license": "MIT",
+  "scripts": {
+    "open-coverage": "open coverage/lcov-report/*.html",
+    "publish": "npm publish",
+    "test": "istanbul cover _mocha && istanbul-coveralls",
+    "test-local": "istanbul cover _mocha"
+  }
+}
