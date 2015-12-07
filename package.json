@@ -2,7 +2,7 @@
   "name": "koa-gce-metadata",
   "description": "Library to retrieve and update metadata in a Google Compute Engine Instance",
   "repository": "silenceisgolden/koa-gce-metadata",
-  "version": "0.0.3",
+  "version": "0.0.7",
   "dependencies": {
     "debug": "^2.2.0",
     "superagent": "^1.5.0"
@@ -39,7 +39,6 @@
   "license": "MIT",
   "scripts": {
     "open-coverage": "open coverage/lcov-report/*.html",
-    "publish": "npm publish",
     "test": "istanbul cover _mocha && istanbul-coveralls",
     "test-local": "istanbul cover _mocha"
   }
